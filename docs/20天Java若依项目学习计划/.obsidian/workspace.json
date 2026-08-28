@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "766827efab63735f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb882932cd8fa46f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbd15687196832d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前期准备/git-knowledge-guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git-knowledge-guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a37e22e7a3f5db44",
+    "type": "split",
+    "children": [
+      {
+        "id": "df9d0c216fcc7874",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91ff9fb50bff0047",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e13acdaaa8e6ffc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "91cd9a00e92e972c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ef902df595ac8a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "35847db08b361f54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf2bf78240b9fc90",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "278360bee5b0803e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "572a2b2feb25e3fe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b198edb3bf631834",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b7cc7d45c113e172",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "d3ee21daf6342ea9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "cbd15687196832d4",
+  "lastOpenFiles": [
+    "前期准备/0_前期准备总结.md",
+    "前期准备/git-knowledge-guide.md",
+    "D01_环境与Java入门/D01_环境与Java入门.md",
+    "前期准备/第二部：进行打包本机部署.md",
+    "Pasted image 20260828004052.png",
+    "Pasted image 20260828004015.png",
+    "Pasted image 20260828003955.png",
+    "Pasted image 20260828003943.png",
+    "Pasted image 20260828003920.png",
+    "D01_环境与Java入门",
+    "前期准备/若依开发环境搭建完整指南.md",
+    "前期准备/第一步：RuoYi源码导入IDEA.md",
+    "D02_Java方法类与MySQL建表.md",
+    "README/20天Java若依项目学习计划.md",
+    "README/README_每日学习执行单.md",
+    "README/已确认环境与Day1配置.md",
+    "README/每日学习执行单模板.md",
+    "README/工具安装与调试手册.md",
+    "前期准备",
+    "().md",
+    "day-00/00_我的Github.md"
+  ]
+}
