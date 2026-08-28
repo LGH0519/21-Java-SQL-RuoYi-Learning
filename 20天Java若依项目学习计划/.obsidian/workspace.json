@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前期准备/0_前期准备总结.md",
+                "file": "D02_Java方法类与MySQL建表/若依前端工程深度解析与二次开发指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0_前期准备总结"
+              "title": "若依前端工程深度解析与二次开发指南"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 338.3000183105469
   },
   "right": {
     "id": "6ef902df595ac8a0",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
+                "file": "D02_Java方法类与MySQL建表/若依前端工程深度解析与二次开发指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,19 +169,9 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
-          },
-          {
-            "id": "d3ee21daf6342ea9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,9 +191,35 @@
   },
   "active": "cbd15687196832d4",
   "lastOpenFiles": [
-    "前期准备/git-knowledge-guide.md",
-    "前期准备/0_前期准备总结.md",
+    "D02_Java方法类与MySQL建表/若依后端工程深度解析与二次开发指南.md",
+    "D02_Java方法类与MySQL建表/若依前端工程深度解析与二次开发指南.md",
+    "D01_环境与Java入门/通用提示词模板.md",
+    "D02_Java方法类与MySQL建表/项目工程解析提示词模板.md",
+    "D02_Java方法类与MySQL建表/项目整体工程深度解析.md",
+    "D02_Java方法类与MySQL建表/D02_Java方法类与MySQL建表.md",
     "D01_环境与Java入门/D01_环境与Java入门.md",
+    "D02_Java方法类与MySQL建表",
+    "D01_环境与Java入门/pom.xml详解/common-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/admin-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/根pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/framework-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/system-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/quartz-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解/generator-pom.xml.md",
+    "D01_环境与Java入门/pom.xml详解",
+    "D01_环境与Java入门/环境配置验收.md",
+    "D01_环境与Java入门/pom.xml.md",
+    "前期准备/0_前期准备总结.md",
+    "Pasted image 20260828100102.png",
+    "Pasted image 20260828095946.png",
+    "Pasted image 20260828095819.png",
+    "Pasted image 20260828095742.png",
+    "README/20天Java若依项目学习计划.md",
+    "README/工具安装与调试手册.md",
+    "README/每日学习执行单模板.md",
+    "README/README_每日学习执行单.md",
+    "前期准备/若依开发环境搭建完整指南.md",
+    "前期准备/git-knowledge-guide.md",
     "前期准备/第二部：进行打包本机部署.md",
     "Pasted image 20260828004052.png",
     "Pasted image 20260828004015.png",
@@ -211,16 +227,8 @@
     "Pasted image 20260828003943.png",
     "Pasted image 20260828003920.png",
     "D01_环境与Java入门",
-    "前期准备/若依开发环境搭建完整指南.md",
     "前期准备/第一步：RuoYi源码导入IDEA.md",
-    "D02_Java方法类与MySQL建表.md",
-    "README/20天Java若依项目学习计划.md",
-    "README/README_每日学习执行单.md",
     "README/已确认环境与Day1配置.md",
-    "README/每日学习执行单模板.md",
-    "README/工具安装与调试手册.md",
-    "前期准备",
-    "().md",
-    "day-00/00_我的Github.md"
+    "前期准备"
   ]
 }
