@@ -70,14 +70,14 @@
 - 15:00–18:00：在 `E:\WorkSpace\java-learning` 新建 Java 17 项目，建 `Day01.java`。写 `String archiveName`、`int retentionYears`、`boolean borrowed`，打印三行。
 - 19:00–22:30：在赋值行打断点，用 Debug 启动，观察三个变量；F8 单步，F9 结束。再写“分数平均值”和“厘米转米”两题。
 - 验收：能解释 `String/int/boolean` 分别适合什么档案字段；Debug 面板有变量截图。
-
+	[D01_Java入门学习资料与操作](D01_Java入门学习资料与操作)
 ## Day 2：条件与循环
 
 - 09:00–12:00：J 看“运算符、if/else、switch、for、while”；JD 阅读对应章节。
 - 15:00–18:00：写 `ArchiveStatusDemo.java`：状态为 `AVAILABLE` 时打印“可借阅”，否则打印“不可借阅”；再用 `for` 打印 1–10 条模拟档案编号。
 - 19:00–22:30：写 4 题：闰年、成绩等级、1–100 求和、数组中最大值。每题先手写 3 组输入与预期输出。
 - 验收：能说明 `if` 是条件分支，`for` 是重复执行；4 题运行正确。
-
+	[D02_Java条件与循环学习资料与操作](D02_Java条件与循环学习资料与操作)
 ## Day 3：数组、方法、参数和返回值
 
 - 09:00–12:00：J 看“数组、方法、方法重载”；JD 阅读“数组、方法”。
