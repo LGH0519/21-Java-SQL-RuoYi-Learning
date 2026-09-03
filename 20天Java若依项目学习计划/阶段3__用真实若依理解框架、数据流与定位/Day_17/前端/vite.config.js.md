@@ -7,7 +7,7 @@
 ### 1. 这个文件是什么？
 
 `vite.config.js` 是 **Vite 构建工具的配置文件**，用一句话概括：它是整个前端项目的"施工图纸"，告诉 Vite 如何编译代码、如何启动开发服务器、如何打包发布。
-
+Vite 更像是 Maven 的构建能力 + 开发服务器 的结合体，而依赖管理这块在前端是由 npm 来承担的。
 ### 2. 它在项目中扮演什么角色？
 
 如果把前端项目比作一个"工厂"，那 `vite.config.js` 就是工厂的**总控面板**。它决定了：
@@ -112,12 +112,12 @@ export default defineConfig(({ mode, command }) => {
 
 **逐行解释：**
 
-| 代码 | 含义 |
-|------|------|
-| `export default defineConfig(...)` | 把配置对象作为本文件的默认输出，供 Vite 读取 |
-| `({ mode, command })` | 函数接收一个对象参数，从中取出 `mode` 和 `command` 两个值 |
+| 代码                                         | 含义                                     |
+| ------------------------------------------ | -------------------------------------- |
+| `export default defineConfig(...)`         | 把配置对象作为本文件的默认输出，供 Vite 读取              |
+| `({ mode, command })`                      | 函数接收一个对象参数，从中取出 `mode` 和 `command` 两个值 |
 | `const env = loadEnv(mode, process.cwd())` | 根据当前 `mode` 加载对应的 `.env` 文件，结果存入 `env` |
-| `const { VITE_APP_ENV } = env` | 从 `env` 中单独取出 `VITE_APP_ENV` 这个变量 |
+| `const { VITE_APP_ENV } = env`             | 从 `env` 中单独取出 `VITE_APP_ENV` 这个变量      |
 
 **专有名词通俗化：**
 
@@ -195,13 +195,13 @@ export default defineConfig(({ mode, command }) => {
 
 `createVitePlugins` 函数（来自 `vite/plugins/index.js`）会返回一个插件数组：
 
-| 插件 | 作用 | 何时启用 |
-|------|------|---------|
-| `vue()` | 让 Vite 能理解 `.vue` 文件 | 始终启用 |
-| `createAutoImport()` | 自动导入 Vue/Vue Router/Pinia 的 API，不用手动写 `import` | 始终启用 |
-| `createSetupExtend()` | 支持在 `<script setup>` 中用 `name` 属性给组件命名 | 始终启用 |
-| `createSvgIcon()` | 把 SVG 图标文件当作组件使用 | 始终启用 |
-| `createCompression()` | 打包时生成 gzip/brotli 压缩文件 | **仅打包时启用** |
+| 插件                    | 作用                                             | 何时启用       |
+| --------------------- | ---------------------------------------------- | ---------- |
+| `vue()`               | 让 Vite 能理解 `.vue` 文件                           | 始终启用       |
+| `createAutoImport()`  | 自动导入 Vue/Vue Router/Pinia 的 API，不用手动写 `import` | 始终启用       |
+| `createSetupExtend()` | 支持在 `<script setup>` 中用 `name` 属性给组件命名         | 始终启用       |
+| `createSvgIcon()`     | 把 SVG 图标文件当作组件使用                               | 始终启用       |
+| `createCompression()` | 打包时生成 gzip/brotli 压缩文件                         | **仅打包时启用** |
 
 **专有名词通俗化：**
 
@@ -399,12 +399,12 @@ dist/
 }
 ```
 
-| 配置项 | 值 | 通俗解释 |
-|--------|-----|---------|
-| `'/dev-api'` | 代理匹配的键名 | 当请求路径以 `/dev-api` 开头时，触发此规则 |
-| `target` | `baseUrl`（即 `http://localhost:8080`） | 把请求转发到后端服务器 |
-| `changeOrigin` | `true` | 修改请求头中的 `Origin` 字段为目标地址 |
-| `rewrite` | `(p) => p.replace(/^\/dev-api/, '')` | 转发前把路径中的 `/dev-api` 去掉 |
+| 配置项            | 值                                    | 通俗解释                        |
+| -------------- | ------------------------------------ | --------------------------- |
+| `'/dev-api'`   | 代理匹配的键名                              | 当请求路径以 `/dev-api` 开头时，触发此规则 |
+| `target`       | `baseUrl`（即 `http://localhost:8080`） | 把请求转发到后端服务器                 |
+| `changeOrigin` | `true`                               | 修改请求头中的 `Origin` 字段为目标地址    |
+| `rewrite`      | `(p) => p.replace(/^\/dev-api/, '')` | 转发前把路径中的 `/dev-api` 去掉      |
 
 **`proxy` 代理配置详解——规则二：SpringDoc 代理**
 
@@ -494,16 +494,16 @@ rewrite 去掉 /dev-api 前缀
 
 **逐行解释：**
 
-| 代码 | 含义 |
-|------|------|
-| `css` | CSS 相关配置 |
-| `postcss` | PostCSS 配置。PostCSS 是一个 CSS 处理工具，可以对 CSS 进行各种转换 |
-| `plugins` | PostCSS 插件列表 |
-| `postcssPlugin: 'internal:charset-removal'` | 定义一个名为"内部:字符集移除"的插件 |
-| `AtRule` | 监听 CSS 中的 `@规则`（如 `@charset`、`@media` 等） |
-| `charset: (atRule) => {...}` | 当遇到 `@charset` 规则时执行这个函数 |
-| `if (atRule.name === 'charset')` | 判断这个规则的名字是不是 `charset` |
-| `atRule.remove()` | 如果是，就把它从 CSS 中删除 |
+| 代码                                          | 含义                                             |
+| ------------------------------------------- | ---------------------------------------------- |
+| `css`                                       | CSS 相关配置                                       |
+| `postcss`                                   | PostCSS 配置。PostCSS 是一个 CSS 处理工具，可以对 CSS 进行各种转换 |
+| `plugins`                                   | PostCSS 插件列表                                   |
+| `postcssPlugin: 'internal:charset-removal'` | 定义一个名为"内部:字符集移除"的插件                            |
+| `AtRule`                                    | 监听 CSS 中的 `@规则`（如 `@charset`、`@media` 等）       |
+| `charset: (atRule) => {...}`                | 当遇到 `@charset` 规则时执行这个函数                       |
+| `if (atRule.name === 'charset')`            | 判断这个规则的名字是不是 `charset`                         |
+| `atRule.remove()`                           | 如果是，就把它从 CSS 中删除                               |
 
 **专有名词通俗化：**
 

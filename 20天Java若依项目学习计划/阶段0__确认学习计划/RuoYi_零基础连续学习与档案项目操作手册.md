@@ -39,18 +39,18 @@
 
 ## 3. 资源索引（固定，只看指定部分）
 
-| 代码 | 资源 | 用途 |
-|---|---|---|
-| J | [Java 零基础视频](https://www.bilibili.com/video/BV1Ho4y1f7Gd/) | 选集按标题找“变量、流程控制、数组、方法、类与对象、继承、接口、集合、异常”。不看网络、多线程、反射。 |
-| JD | [Java 中文教程](https://www.runoob.com/java/java-tutorial.html) | 视频后查语法和完成示例。 |
-| M | [MySQL 视频](https://www.bilibili.com/video/BV1Kr4y1i7ru/) | 看基础 SQL：第 2–18 集开始，再按标题看连接、事务、索引。 |
-| MD | [MySQL 中文教程](https://www.runoob.com/mysql/mysql-tutorial.html) | 查 DDL、DML、查询、连接、事务、索引。 |
-| S | [Spring Boot 视频](https://www.bilibili.com/video/BV15b4y1a7yG/) | 只在项目阅读阶段看：入门、配置、Web、MyBatis、事务、测试。 |
-| R | [RuoYi-Vue 官方文档](https://doc.ruoyi.vip/ruoyi-vue/document/kslj.html) | 看项目能力、模块概念和官方术语。 |
-| RH | [若依代码生成说明](https://doc.ruoyi.vip/ruoyi/document/htsc.html) | 二开阶段学习生成器。 |
-| V | [Vue 3 视频](https://www.bilibili.com/video/BV1Ac411K7EQ/) | 只看 Day1-02 至 Day1-10：Vue、`setup`、`ref/reactive`、`computed`、`watch`、生命周期。 |
-| VD | [Vue 官方中文文档](https://cn.vuejs.org/guide/introduction.html) | 查模板语法、响应式、事件和组件。 |
-| G | [Git 视频](https://www.bilibili.com/video/BV1MU4y1Y7h5) | 只看 04、07–12、16–24；用于真实项目节点。 |
+| 代码  | 资源                                                                   | 用途                                                                       |
+| --- | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| J   | [Java 零基础视频](https://www.bilibili.com/video/BV1Ho4y1f7Gd/)           | 选集按标题找“变量、流程控制、数组、方法、类与对象、继承、接口、集合、异常”。不看网络、多线程、反射。                      |
+| JD  | [Java 中文教程](https://www.runoob.com/java/java-tutorial.html)          | 视频后查语法和完成示例。                                                             |
+| M   | [MySQL 视频](https://www.bilibili.com/video/BV1Kr4y1i7ru/)             | 看基础 SQL：第 2–18 集开始，再按标题看连接、事务、索引。                                        |
+| MD  | [MySQL 中文教程](https://www.runoob.com/mysql/mysql-tutorial.html)       | 查 DDL、DML、查询、连接、事务、索引。                                                   |
+| S   | [Spring Boot 视频](https://www.bilibili.com/video/BV15b4y1a7yG/)       | 只在项目阅读阶段看：入门、配置、Web、MyBatis、事务、测试。                                       |
+| R   | [RuoYi-Vue 官方文档](https://doc.ruoyi.vip/ruoyi-vue/document/kslj.html) | 看项目能力、模块概念和官方术语。                                                         |
+| RH  | [若依代码生成说明](https://doc.ruoyi.vip/ruoyi/document/htsc.html)           | 二开阶段学习生成器。                                                               |
+| V   | [Vue 3 视频](https://www.bilibili.com/video/BV1Ac411K7EQ/)             | 只看 Day1-02 至 Day1-10：Vue、`setup`、`ref/reactive`、`computed`、`watch`、生命周期。 |
+| VD  | [Vue 官方中文文档](https://cn.vuejs.org/guide/introduction.html)           | 查模板语法、响应式、事件和组件。                                                         |
+| G   | [Git 视频](https://www.bilibili.com/video/BV1MU4y1Y7h5)                | 只看 04、07–12、16–24；用于真实项目节点。                                              |
 
 ---
 
@@ -70,14 +70,14 @@
 - 15:00–18:00：在 `E:\WorkSpace\java-learning` 新建 Java 17 项目，建 `Day01.java`。写 `String archiveName`、`int retentionYears`、`boolean borrowed`，打印三行。
 - 19:00–22:30：在赋值行打断点，用 Debug 启动，观察三个变量；F8 单步，F9 结束。再写“分数平均值”和“厘米转米”两题。
 - 验收：能解释 `String/int/boolean` 分别适合什么档案字段；Debug 面板有变量截图。
-	[D01_Java入门学习资料与操作](D01_Java入门学习资料与操作)
+	[D01_Java入门学习资料与操作](D01_Java入门学习资料与操作.md)
 ## Day 2：条件与循环
 
 - 09:00–12:00：J 看“运算符、if/else、switch、for、while”；JD 阅读对应章节。
 - 15:00–18:00：写 `ArchiveStatusDemo.java`：状态为 `AVAILABLE` 时打印“可借阅”，否则打印“不可借阅”；再用 `for` 打印 1–10 条模拟档案编号。
 - 19:00–22:30：写 4 题：闰年、成绩等级、1–100 求和、数组中最大值。每题先手写 3 组输入与预期输出。
 - 验收：能说明 `if` 是条件分支，`for` 是重复执行；4 题运行正确。
-	[D02_Java条件与循环学习资料与操作](D02_Java条件与循环学习资料与操作)
+	[D02_Java条件与循环学习资料与操作](D02_Java条件与循环学习资料与操作.md)
 ## Day 3：数组、方法、参数和返回值
 
 - 09:00–12:00：J 看“数组、方法、方法重载”；JD 阅读“数组、方法”。

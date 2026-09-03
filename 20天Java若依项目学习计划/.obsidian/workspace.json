@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "766827efab63735f",
+    "id": "9d8710d194a80357",
     "type": "split",
     "children": [
       {
-        "id": "bb882932cd8fa46f",
+        "id": "a4dae7ea5dba8f76",
         "type": "tabs",
         "children": [
           {
-            "id": "40703d1207f22a7e",
+            "id": "705ba59c4559fb09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "阶段1__Java基础/D06_Java集合与泛型学习资料与操作.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "D06_Java集合与泛型学习资料与操作"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a37e22e7a3f5db44",
+    "id": "6e43ffb1d50f36bb",
     "type": "split",
     "children": [
       {
-        "id": "df9d0c216fcc7874",
+        "id": "64cb08d92fdd9c04",
         "type": "tabs",
         "children": [
           {
-            "id": "91ff9fb50bff0047",
+            "id": "47f09023bca4fbfa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "e13acdaaa8e6ffc8",
+            "id": "3d7e583196cf209c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +63,7 @@
             }
           },
           {
-            "id": "91cd9a00e92e972c",
+            "id": "c2c06e5a225b5f38",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,23 +79,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 300
   },
   "right": {
-    "id": "6ef902df595ac8a0",
+    "id": "7bbd8d8b3d02ff9e",
     "type": "split",
     "children": [
       {
-        "id": "35847db08b361f54",
+        "id": "48d3ffe759873f8b",
         "type": "tabs",
         "children": [
           {
-            "id": "cf2bf78240b9fc90",
+            "id": "1bff38c5b9057b91",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阶段1__Java基础/D06_Java集合与泛型学习资料与操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +108,11 @@
             }
           },
           {
-            "id": "278360bee5b0803e",
+            "id": "bf576f3bdd465935",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -127,7 +121,7 @@
             }
           },
           {
-            "id": "572a2b2feb25e3fe",
+            "id": "156a469b1a2480ee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +136,7 @@
             }
           },
           {
-            "id": "b198edb3bf631834",
+            "id": "5f29101a845b5218",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,12 +150,11 @@
             }
           },
           {
-            "id": "b7cc7d45c113e172",
+            "id": "80923424818d02d6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "阶段1__Java基础/D06_Java集合与泛型学习资料与操作.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +163,7 @@
               "title": "大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,56 +177,10 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
     }
   },
-  "active": "40703d1207f22a7e",
-  "lastOpenFiles": [
-    "阶段1__Java基础/D05_Java继承接口多态学习资料与操作.md",
-    "阶段1__Java基础/Day_04/D04_Java类对象封装学习资料与操作.md",
-    "阶段1__Java基础/Day_03/D03_Java数组与方法学习资料与操作.md",
-    "阶段1__Java基础/Day_02/D02_Java条件与循环学习资料与操作.md",
-    "阶段1__Java基础/Day_01/D01_Java入门学习资料与操作.md",
-    "阶段1__Java基础/D06_Java集合与泛型学习资料与操作.md",
-    "阶段0__确认学习计划/RuoYi_零基础连续学习与档案项目操作手册.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/vite.config.js.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/前端",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/D17-notes.md.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/D17_若依整体运行架构与启动定位学习资料与操作.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/服务器.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/RuoYiApplication.java.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/RuoYiApplication 关联关系流程图.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/SpringApplication.run()函数流程.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/跨域.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/@SpringBootApplication注解.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/@Bean方法.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/Xxxx.class.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/try关键字.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/注解中的内部属性.md",
-    "记录我的前期急躁学习计划/了解AI辅助工具/提示词模板/最低限度必要知识清单.md",
-    "记录我的前期急躁学习计划/了解AI辅助工具/提示词模板/文件深度解析通用提示词模板.md",
-    "阶段3__用真实若依理解框架、数据流与定位/Day_17",
-    "阶段3__用真实若依理解框架、数据流与定位/D18_若依字典类型完整数据流学习资料与操作.md",
-    "阶段3__用真实若依理解框架、数据流与定位",
-    "阶段1__Java基础/Day_01/部分关键字.md",
-    "阶段1__Java基础/Day_04/Java内存模型.md",
-    "阶段1__Java基础/Day_04/对象的内存地址.md",
-    "阶段1__Java基础/Day_04",
-    "阶段1__Java基础/Day_03",
-    "阶段1__Java基础/Day_02",
-    "阶段1__Java基础/Day_01",
-    "阶段1__Java基础/Day_01/Pasted image 20260830165404.png",
-    "阶段1__Java基础/Day_01/Pasted image 20260830165403.png",
-    "记录我的前期急躁学习计划/认识Java/Pasted image 20260819204156.png",
-    "记录我的前期急躁学习计划/了解全栈开发涉及内容/ruoyi_bookstack_flow.png",
-    "记录我的前期急躁学习计划/了解全栈开发涉及内容",
-    "记录我的前期急躁学习计划/涉及的名词概念/ruoyi_bookstack_flow.png",
-    "记录我的前期急躁学习计划/涉及的名词概念",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260829094627.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260828095742.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260829114259.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260829094611.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260828095946.png"
-  ]
+  "active": "705ba59c4559fb09",
+  "lastOpenFiles": []
 }
