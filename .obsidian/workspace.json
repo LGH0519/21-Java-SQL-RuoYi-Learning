@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_08/理解项目中的注解.md",
+                "file": "实例开发/记录/理解项目中的注解.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,30 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20天Java若依项目学习计划/阶段1__Java基础/重点文件/注解.md",
+                "file": "实例开发/记录/第一阶段知识点总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "注解"
+              "title": "第一阶段知识点总结"
             }
           },
           {
-            "id": "afc07e9f88603695",
+            "id": "c91d6bd8323beab1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/D17_若依整体运行架构与启动定位学习资料与操作.md",
+                "file": "实例开发/记录/解析.vue文件知识点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D17_若依整体运行架构与启动定位学习资料与操作"
+              "title": "解析.vue文件知识点"
+            }
+          },
+          {
+            "id": "40a2695be9e99433",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实例开发/记录/知识点记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "知识点记录"
+            }
+          },
+          {
+            "id": "bab8008fa880e439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实例开发/记录/记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "记录"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -84,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "登录流程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,9 +176,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "D01_环境与Java入门/D01_环境与Java入门.md",
+                "file": "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/yml文件说明/application.yml.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "出链"
@@ -191,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/D17_若依整体运行架构与启动定位学习资料与操作.md",
+                "file": "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/yml文件说明/application.yml.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,53 +246,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "afc07e9f88603695",
+  "active": "40a2695be9e99433",
   "lastOpenFiles": [
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/MySQL和Redis.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/D17-notes.md.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/D17_若依整体运行架构与启动定位学习资料与操作.md",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/D09_Java阶段测试与控制台项目学习资料与操作.md",
-    "20天Java若依项目学习计划/阶段1__Java基础/重点文件/注解.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/POST GET PUT DELETE.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/vite.config.js.md",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_08/理解项目中的注解.md",
-    "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/yml文件说明/application-druid.yml.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/初次登录流程.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/拦截器和过滤器.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/注解中的内部属性.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/classpath类路径.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/RuoYiApplication 关联关系流程图.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/RuoYiApplication.java.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/SpringApplication.run()函数流程.md",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_07/若依抛异常.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/后端/若依后端完整请求链路.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/Spring MVC Controller Service Mapper.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/HTTP 方法与数据流向的对应关系.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/前端/服务器.md",
-    "20天Java若依项目学习计划/阶段1__Java基础/重点文件/主要掌握什么.md",
+    "实例开发/记录/解析.vue文件知识点.md",
+    "实例开发/记录/知识点记录.md",
+    "实例开发/记录/记录.md",
+    "实例开发/记录/第一阶段知识点总结.md",
+    "实例开发/记录/理解项目中的注解.md",
     "20天Java若依项目学习计划/阶段0__确认学习计划/RuoYi_零基础连续学习与档案项目操作手册.md",
+    "20天Java若依项目学习计划/阶段0__确认学习计划/零基础学习路径.md",
+    "实例开发/记录/每日笔记.md",
+    "20天Java若依项目学习计划/阶段1__Java基础/重点文件/注解.md",
+    "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/后端项目中的注解.md",
+    "实例开发/记录/小型项目开发流程.md",
+    "实例开发/记录/子组件_抽屉_drawer.md",
+    "实例开发/记录/子界面_切换.vue文件.md",
+    "实例开发/记录/流程图.md",
+    "实例开发/记录/若依系统生成的文件.md",
+    "实例开发/记录/使用Codex.md",
+    "实例开发/记录/Dugger个人报名.md",
+    "实例开发/记录/IDEA定位.md",
+    "实例开发/记录/startPage分页.md",
+    "实例开发/数据库表/第一阶段流程简化版.md",
+    "Pasted image 20260911105624.png",
+    "Pasted image 20260911095152.png",
+    "Pasted image 20260911095102.png",
+    "Pasted image 20260911095031.png",
+    "Pasted image 20260910170616.png",
+    "Pasted image 20260910165841.png",
+    "Pasted image 20260910163557.png",
+    "实例开发/个人报名系统.md",
+    "Pasted image 20260909112338.png",
+    "实例开发/数据库表/ry_20260417.sql表字段详解.md",
+    "Pasted image 20260908165603.png",
+    "Pasted image 20260908162138.png",
+    "20天Java若依项目学习计划/记录我的前期急躁学习计划/前期开发环境准备/第一步：RuoYi源码导入IDEA.md",
     "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/yml文件说明/application.yml.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/vite或Ngnix解决跨域.md",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_17/Token.md",
+    "实例开发/记录",
+    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_18/验证码.md",
+    "实例开发/数据库表/quartz.sql表.md",
+    "实例开发/数据库表",
+    "实例开发",
+    "全栈开发整体需要了解的内容",
+    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_19",
+    "20天Java若依项目学习计划/阶段0__确认学习计划/工程学习指南/研读前端工程",
     "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_08",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_01/Pasted image 20260830165403.png",
-    "20天Java若依项目学习计划/阶段1__Java基础/Day_01/Pasted image 20260830165404.png",
     "20天Java若依项目学习计划/阶段1__Java基础/学习进度",
     "20天Java若依项目学习计划/阶段1__Java基础/重点文件",
-    "20天Java若依项目学习计划/阶段1__Java基础/Day_06/泛型",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_07",
-    "20天Java若依项目学习计划/阶段3__用真实若依理解框架、数据流与定位/Day_18",
-    "20天Java若依项目学习计划/阶段1__Java基础/Day_06/Set",
-    "20天Java若依项目学习计划/阶段1__Java基础/Day_06/List",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_06",
-    "20天Java若依项目学习计划/阶段1__Java基础/学习进度/Day_06/Map",
-    "Pasted image 20260901115627.png",
-    "阶段1__Java基础/Day_01/Pasted image 20260830165404.png",
-    "阶段1__Java基础/Day_01/Pasted image 20260830165403.png",
-    "记录我的前期急躁学习计划/认识Java/Pasted image 20260819204156.png",
-    "记录我的前期急躁学习计划/了解全栈开发涉及内容/ruoyi_bookstack_flow.png",
-    "记录我的前期急躁学习计划/涉及的名词概念/ruoyi_bookstack_flow.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260829094627.png",
-    "记录我的前期急躁学习计划/涉及的图片/Pasted image 20260828095742.png"
+    "20天Java若依项目学习计划/阶段1__Java基础/Day_06/泛型"
   ]
 }
