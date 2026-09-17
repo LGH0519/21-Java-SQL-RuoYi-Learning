@@ -81,12 +81,12 @@ public AjaxResult login(...)
 
 ### 四种搜索快捷键的区别
 
-|快捷键|用途|示例|
-|---|---|---|
-|`Shift` 两次|搜索所有内容|`SysLoginController`|
-|`Ctrl + N`|搜索 Java 类|`BizRegistrationController`|
-|`Ctrl + Shift + N`|搜索文件|`application.yml`|
-|`Ctrl + Shift + F`|搜索文件内容|`/registration/personal`|
+| 快捷键                | 用途        | 示例                          |
+| ------------------ | --------- | --------------------------- |
+| `Shift` 两次         | 搜索所有内容    | `SysLoginController`        |
+| `Ctrl + N`         | 搜索 Java 类 | `BizRegistrationController` |
+| `Ctrl + Shift + N` | 搜索文件      | `application.yml`           |
+| `Ctrl + Shift + F` | 搜索文件内容    | `/registration/personal`    |
 
 ## 三、已知接口地址：搜索 `@RequestMapping`
 
